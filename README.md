@@ -8,7 +8,9 @@ SELECT * FROM club_member_infor cmi
 LIMIT 10;
 '''
 
-
+SELECT cmi.*,cmi.rowid 
+FROM club_member_info 
+AS cmi
 
 **The result**
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
