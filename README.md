@@ -4,7 +4,7 @@ This is an educational project on data cleaning and preparation using SQL. The o
 # Data Overview
 Query to show overview data:
 '''sql'''
-SELECT * FROM club_member_infor cmi
+SELECT * FROM club_member_info cmi
 LIMIT 10;
 '''
 
